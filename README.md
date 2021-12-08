@@ -2,18 +2,18 @@
 
 I did not expect to make it as far as I have! 
 
-[Day 1](#Day1)
-[Day 2](#Day2)
-[Day 3](#Day3)
-[Day 4](#Day4)
-[Day 5](#Day5)
-[Day 6](#Day6)
-[Day 7](#Day7)
-[Day 8](#Day8)
+[Day 1](#Day1)  
+[Day 2](#Day2)  
+[Day 3](#Day3)  
+[Day 4](#Day4)  
+[Day 5](#Day5)  
+[Day 6](#Day6)  
+[Day 7](#Day7)  
+[Day 8](#Day8)  
 
 
 
-##<a name="Day1">Day 1</a>
+## <a name="Day1">Day 1</a>
 
 Part 1: I've never had to copy a list of 2000 items from a browser before and try to figure out how to make it usable as an array of numbers. Thanks to Stack Overflow, I learned that splitting by a new line is possible!
 
@@ -23,13 +23,13 @@ IIRC, these start easy and get much harder. I have no idea how long I'll be able
 
 [Back to top](#top)
 
-##<a name="Day2">Day 2</a>
+## <a name="Day2">Day 2</a>
 
 Very straightforward puzzles, just a matter of parsing the input and calculating accordingly. Part 2 had a fun little twist to it but it involved minimal refactoring. This was a super fun way to warm up my brain for the day while enjoying my coffee. And 4 🌟 is 4 more than I've made it before!! 🤗
 
 [Back to top](#top)
 
-##<a name="Day3">Day 3</a>
+## <a name="Day3">Day 3</a>
 
 Today ramped up the challenge a little! Still doable for me (which probably means easy for the pros).
 
@@ -45,7 +45,7 @@ I really hope I can keep solving these. This is a really beneficial exercise for
 
 [Back to top](#top)
 
-##<a name="Day4">Day 4</a>
+## <a name="Day4">Day 4</a>
 
 This puzzle sounds simple but had a number of steps for me to solve. We have an input of 100 bingo cards and a set of called numbers.
 
@@ -69,7 +69,7 @@ While I am thrilled I was able to break down the challenge into manageable tasks
 
 [Back to top](#top)
 
-##<a name="Day5">Day 5</a>
+## <a name="Day5">Day 5</a>
 
 I'm starting to get the feeling if I had majored in math or I worked with data sets more this would go faster for me. 🙃
 
@@ -91,7 +91,7 @@ I'm honestly shocked I've made it five days in. My problem solving luck may or m
 
 [Back to top](#top)
 
-##<a name="Day6">Day 6</a>
+## <a name="Day6">Day 6</a>
 
 We're counting Lanternfish today! 🐟 Given a starting set & propagation timeline, we just have to keep track of how many lanternfish there are. Super simple: create an array of days left till a new lanternfish gets added, add the new lanternfish when the timer goes, return the array length.
 
@@ -107,7 +107,7 @@ Yesterday after I completed AoC I spent half the day talking to my husband about
 
 [Back to top](#top)
 
-##<a name="Day7">Day 7</a>
+## <a name="Day7">Day 7</a>
 
 Today's puzzle included crabs in submarines getting in formation and we have to calculate least fuel used for any given horizontal alignment.
 
@@ -119,7 +119,7 @@ What was almost as funny as crabs in underwater vehicles was forgetting why I co
 
 [Back to top](#top)
 
-##<a name="Day8">Day 8</a>
+## <a name="Day8">Day 8</a>
 
 Wow, today's puzzle was so fun!!
 
