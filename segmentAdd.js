@@ -18,7 +18,7 @@ let input = digitInput.split('\n')
 for (let i = 0; i < input.length; i++) {
  input[i] = input[i].replace(/\s/g, ',').replace(/\|,/g,'').split(',')
 }
-
+console.log(input)
 let digitKey = {}
 
 let decodedDigitsArray = [];
