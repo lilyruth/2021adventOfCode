@@ -10,7 +10,7 @@ I did not expect to make it as far as I have!
 [Day 6](#Day6)  
 [Day 7](#Day7)  
 [Day 8](#Day8)  
-
+[Day 9](#Day9)  
 
 
 ## <a name="Day1">Day 1</a>
@@ -138,5 +138,29 @@ Since four fits inside of nine but not six or zero, I created an array from a se
 I used the same process for three, two and five, added the four-digit numbers to an array, and summed the array.
 
 This was so much fun, the puzzle so cleverly created.
+
+[Back to top](#top)
+
+## <a name="Day9">Day 9</a>
+
+Today almost got me! But I want what's ahead more than I want to go back to what is behind. That kept me going when I wasn't sure I could break this into manageable bits.
+
+Part 1: This was a simple iteration through numbers to find points that were lower than all the points' neighbors.
+
+Part 2: We had to take the low points and find all the neighbors that were less than 9. In theory I understand the idea of breadth-first and depth-first searches. I'm still trying to wrap my brain around them, so I haven't implemented any breadth-first or depth-first searches before today. I haven't even really practiced them yet.
+
+Since I knew conceptually what I needed to do, I decided to pull out the resources I had available to understand and practice before writing one to crack this puzzle. First, I went to YouTube (normally that's fine; today was a mistake). The person explaining had errors in their code. 🥴 Deciding to go a different direction, I pulled out Eloquent Javascript, and read up on Chapter 7 and implemented the exercise. While it definitely helped me, I needed additional reinforcement. A while ago I bought an Udemy class from Zero To Mastery on Data Structures and Algorithms. I jumped straight to the graphs and went through all the lessons on depth-first and breadth-first searches. (Note for Github: You can see the practice I did in this repo. I thought about moving the files to my algos folder but in the end decided to keep them here.)
+
+That gave me enough to go forward. Adding on to the code I had from part 1, I created a unique number for each low point. The low point coordinates were then added to an array of points to check. In addition I created an array that held the values that had already been checked. I created a recursive function that first checked that the array of coordinates to be checked was not empty (if it was it returned, this is the stopping condition), then that the coordinate had not already been seen, then looked at all the coordinate's neighbors to see which ones should also be checked and added those to the array to be checked, added that particular coordinate to what had already been seen, and added that number to a dictionary with the key being the low point.
+
+At the end all I had to do was get some data points from the dictionary object to solve the puzzle.
+
+I ran into a few problems, so my code today is a little messy. I console logged pretty much everything so I could trace a couple of my bugs. That was a really informative process.
+
+One interesting bug I had was my recursive function was exiting too early, with points left to check. I didn't realize I needed to call the function when I exited out of the function because a point had already been seen. That was a memorable fix.
+
+My second big bug was because I can't count... 😑 my if conditions were stopping too soon. Once I fixed those two it worked like a charm.
+
+The funniest part was not removing the console logs and waiting forever for the answer because ALL my data points were running in the terminal. 🤓
 
 [Back to top](#top)
