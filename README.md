@@ -11,7 +11,7 @@ I did not expect to make it as far as I have!
 [Day 7](#Day7)  
 [Day 8](#Day8)  
 [Day 9](#Day9)  
-
+[Day 10](#Day10)  
 
 ## <a name="Day1">Day 1</a>
 
@@ -162,5 +162,11 @@ One interesting bug I had was my recursive function was exiting too early, with 
 My second big bug was because I can't count... 😑 my if conditions were stopping too soon. Once I fixed those two it worked like a charm.
 
 The funniest part was not removing the console logs and waiting forever for the answer because ALL my data points were running in the terminal. 🤓
+
+[Back to top](#top)
+
+## <a name="Day10">Day 10</a>
+
+Today's puzzle is a challenge but this is where having started learning algorithms comes in handy! The setup is a version of LeetCode's Valid Parentheses problem. Since I had learned how to solve it, I added the logic to filter lines and score. I got both completed in under an hour. This is a welcome break since the prior two days were so challenging. I'm looking forward to getting some other projects completed today!
 
 [Back to top](#top)
