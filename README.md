@@ -12,7 +12,7 @@ I did not expect to make it as far as I have!
 [Day 8](#Day8)  
 [Day 9](#Day9)  
 [Day 10](#Day10)  
-[Day 11](#Day11)
+[Day 11](#Day11) (fin)
 
 ## <a name="Day1">Day 1</a>
 
@@ -172,7 +172,7 @@ Today's puzzle is a challenge but this is where having started learning algorith
 
 [Back to top](#top)
 
-## <a name="Day10">Day 10</a>
+## <a name="Day11">Day 11</a>
 
 What a ride!! 
 
