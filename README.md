@@ -12,6 +12,7 @@ I did not expect to make it as far as I have!
 [Day 8](#Day8)  
 [Day 9](#Day9)  
 [Day 10](#Day10)  
+[Day 11](#Day11)
 
 ## <a name="Day1">Day 1</a>
 
@@ -168,5 +169,27 @@ The funniest part was not removing the console logs and waiting forever for the 
 ## <a name="Day10">Day 10</a>
 
 Today's puzzle is a challenge but this is where having started learning algorithms comes in handy! The setup is a version of LeetCode's Valid Parentheses problem. Since I had learned how to solve it, I added the logic to filter lines and score. I got both completed in under an hour. This is a welcome break since the prior two days were so challenging. I'm looking forward to getting some other projects completed today!
+
+[Back to top](#top)
+
+## <a name="Day10">Day 10</a>
+
+What a ride!! 
+
+Yesterday I had some non-coding related challenges that were time sensitive and had to be dealt with so I got a much later start than normal. Then, due to being tired and distracted, I made a lot of mistakes I should not have that slowed the solving process. 
+
+Meticulous debugging helped me eventually get really close to solving it. The final step was realizing the bounds of the dumbo octopi needed to be dealt with. Shortly after midnight last night, I solved parts 1 and 2 within a half hour of each other and pushed to Github.
+
+
+
+I had to start a new file to backtrack, so one of the files I uploaded doesn't even work. But I didn't leave it out, thinking it was important to document the struggle as much as the solution. 
+
+Day 12's puzzle utilizes depth-first search, and while I may yet solve it, I'm not going to put a deadline on myself anymore for solving AoC this year. At this point I will also give myself permission to see how others are solving the challenges so I can learn faster (I have solved before looking at anyone else's code through now). 
+
+I have a consulting website to build for a client and my daughter is really fired up over a learning project I am doing using the Pokemon API. So I need to move my primary focus on to other things and now is as good a time as any to do it. 
+
+The value from working intensively working on AoC challenges for 11 days cannot be overstated for me. I've learned more about several algorithm concepts, I've learned a lot about debugging and as my husband recapped yesterday as he watched me finally sit back and sigh after submitting, AoC has really helped me more than anything else with thinking like a computer. 
+
+I'm grateful for the creator of AoC, Eric Wastl, and all the supporters who make it possible. Next year I'll aim to make it through Day 12 or farther. I'm going to add past AoC years' challenges to my regular algorithm routine. Finally, I think I'll head on down to the AoC shop to buy a coffee mug to hallmark making it ten days further than I hoped => [AoC shop](https://advent-of-code.creator-spring.com/). This has been a fantastic way to kick off December. 
 
 [Back to top](#top)
